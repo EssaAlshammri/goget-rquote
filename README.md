@@ -12,10 +12,10 @@ git clone https://github.com/EssaAlshammri/goget-rquote.git
 sudo mv goget-rquote/rquote /opt/rquote
 ```
 
-* Put this line into .bashrc so every time ypu open the terminal a new quote will be printed
+* Put this line into .bashrc so every time you open the terminal a new quote will be printed
 ```
-/opt/rquote >> .bashrc
-source .bashrc
+echo /opt/rquote >> ~/.bashrc
+source ~/.bashrc
 ```
 
 and now you are good to go :+1:
